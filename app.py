@@ -90,7 +90,7 @@ col1, col2 = st.columns(2)
 
 # Left Column - Length, Weight, Temperature
 with col1:
-    st.subheader("📏 General Unit Converter")
+    st.subheader("📏 General Unit \n Converter")
     category = st.selectbox("Select Unit Category", ["Length", "Weight", "Temperature"], key="general_category")
     value = st.number_input("Enter Value:", min_value=0.0, key="general_value")
 
