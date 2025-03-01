@@ -117,7 +117,7 @@ with col1:
 
 # Right Column - Speed, Time
 with col2:
-    st.subheader("⏱️ Speed & Time Converter")
+    st.subheader("⏱️ Speed & Time \n Converter")
     category2 = st.selectbox("Select Unit Category", ["Speed", "Time"], key="special_category")
     value2 = st.number_input("Enter Value:", min_value=0.0, key="special_value")
 
